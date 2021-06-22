@@ -24,7 +24,10 @@ public class App
         
         if (LengthOfLine1.equals(LengthOfLine2)) {
         	System.out.println("The two lines are equal");
-       
         }
+        else {
+        	System.out.println("The two lines are not equal");
+        }
+
     }
 }
