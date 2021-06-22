@@ -18,13 +18,16 @@ public class App
         int line2y1 = 0;
         
         int line2x2 = 0;
-        int line2y2 = 8;
+        int line2y2 = 6;
         Double LengthOfLine2 = Math.sqrt(Math.pow((line2x2-line2x1),2) + Math.pow((line2y2-line2y1),2));
         System.out.println("The length of line is:" + LengthOfLine2);
         
         if (LengthOfLine1.equals(LengthOfLine2)) {
         	System.out.println("The two lines are equal");
-       
+         }
+        else {
+        	System.out.println("The two lines are not equal");
+
         }
     }
 }
